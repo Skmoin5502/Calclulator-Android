@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/simpleCalculatorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="0dp"
+        android:text="Simple Calculator"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:hint="Enter number One"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+
+        />
+    <EditText
+        android:id="@+id/number2"
+        android:hint="Enter number Two"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        />
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/Addition"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:hint="Add"
+        android:textColorHint="@color/black"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Subtraction"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:hint="Substract"
+        android:textColorHint="@color/black"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Multiplication"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:hint="Multiply"
+        android:textColorHint="@color/black"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Division"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:hint="Divide"
+        android:textColorHint="@color/black"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Clear"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:hint="C"
+        android:textColorHint="@color/black"
+        android:textSize="30dp" />
+
+
+
+</LinearLayout>
